@@ -13,18 +13,18 @@ utilizam no início e fim 3 aspas seguidas
 """
 
 print(var) # Printa uma variável
-print('Hello, World!') # Printa um texto
-print('Texto', var) # Printa texto seguido de variável
-print('Texto1', var, '\nTexto2') # Printa texto seguido de quebra de linha seguido de outro texto
-print('MC102', 'UNICAMP', '2022', sep = " - ", end = "!\n") # Printa "MC102 - UNICAMP - 2022!" e pula linha
-print('\\n') # Printa \n (Não quebra linha)
+print("Hello, World!") # Printa um texto
+print("Texto", var) # Printa texto seguido de variável
+print("Texto1", var, "\nTexto2") # Printa texto seguido de quebra de linha seguido de outro texto
+print("MC102", "UNICAMP", "2022", sep = " - ", end = "!\n") # Printa "MC102 - UNICAMP - 2022!" e pula linha
+print("\\n") # Printa \n (Não quebra linha)
 ```
 
 ### Tipos de variáveis
 
 ```py
 x = 11 # Inteiro
-nome = 'Enzo' # String
+nome = "Enzo" # String
 ```
 
 ### Operadores
