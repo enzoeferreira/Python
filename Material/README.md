@@ -16,7 +16,7 @@ print(var) # Printa uma variável
 print('Hello, World!') # Printa um texto
 print('Texto ', var) # Printa texto seguido de variável
 print('Texto1 ', var, '\nTexto2') # Printa texto seguido de quebra de linha seguido de outro texto
-print('\\n') # Printa \n
+print('\\n') # Printa \n (Não quebra linha)
 ```
 
 ## Funções importantes
