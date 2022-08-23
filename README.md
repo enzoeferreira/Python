@@ -20,12 +20,23 @@ print("MC102", "UNICAMP", "2022", sep = " - ", end = "!\n") # Printa "MC102 - UN
 print("\\n") # Printa \n (Não quebra linha)
 ```
 
-### Tipos de variáveis
+### Tipos de dados
 
 ```py
-x = 11 # Inteiro
-nome = "Enzo" # String
+int = 11 # Inteiro
+float = 11.10 # Float (Números decimais)
+str = "Enzo" # String (Texto)
 ```
+
+### Operadores
+
+    +  -> Adição
+    -  -> Subtração
+    *  -> Multiplicação
+    /  -> Divisão
+    // -> Divisão Inteira
+    %  -> Resto da divisão
+    ** -> Potenciação
 
 ### Operadores
 
