@@ -19,4 +19,16 @@ print('Texto1 ', var, '\nTexto2') # Printa texto seguido de quebra de linha segu
 print('\\n') # Printa \n (Não quebra linha)
 ```
 
+### Tipos de variáveis
+
+```py
+x = 11 # Inteiro
+nome = 'Enzo' # String
+```
+
+### Operadores
+
+    += -> Incrementa
+    -= -> Decréscimo
+
 ## Funções importantes
