@@ -14,6 +14,7 @@ utilizam no início e fim 3 aspas seguidas
 
 print(var) # Printa uma variável
 print('Hello, World!') # Printa um texto
+print('Texto ', var) # Printa texto seguido de variável
 ```
 
 ## Funções importantes
