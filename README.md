@@ -19,6 +19,10 @@ print("Texto1", var, "\nTexto2") # Printa texto seguido de quebra de linha segui
 print("MC102", "UNICAMP", "2022", sep = " - ", end = "!\n") # Printa "MC102 - UNICAMP - 2022!" e pula linha
 # Por padrão, sep = " " e end = "\n"
 print("\\n") # Printa \n (Não quebra linha)
+
+var = input() # Aguarda receber entrada
+var = input("Texto") # Printa o texto e espera por entrada
+var = int(input()) # Casting de inteiro no input (String por padrão) 
 ```
 
 ### Tipos de dados
@@ -38,8 +42,6 @@ str = "Enzo" # String (Texto)
     // -> Divisão Inteira
     %  -> Resto da divisão
     ** -> Potenciação
-
-### Operadores
 
     += -> Incrementa
     -= -> Decréscimo
