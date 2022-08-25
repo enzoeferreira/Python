@@ -28,6 +28,13 @@ print("\\n") # Printa \n (Não quebra linha)
 var = input() # Aguarda receber entrada
 var = input("Texto") # Printa o texto e espera por entrada
 var = int(input()) # Casting de inteiro no input (String por padrão) 
+
+if condição:
+    # comando (PRECISA DE IDENTAÇÃO)
+elif: # Equivalente ao else if
+    # comando (PRECISA DE IDENTAÇÃO)
+else:
+    # comando (PRECISA DE IDENTAÇÃO)
 ```
 
 ### Tipos de dados
