@@ -55,4 +55,11 @@ resultado = int(a) + int(b)
     += -> Incrementa
     -= -> Decréscimo
 
+### Atribuição de variável
+
+```py
+x = 10 # Atribui 10 a "x"
+x, y = 10, 20 # Atribui 10 a "x" e 20 a "y"
+```
+
 ## Funções importantes
