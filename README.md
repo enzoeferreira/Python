@@ -18,6 +18,8 @@ print("Hello, World!") # Printa um texto
 print("Texto", var) # Printa texto seguido de variável
 print(f"texto{var}") # Printa texto seguido de variável
 
+print(f"{var:.nf}")  # Printa variável float com "n" casas decimais
+
 print("Texto1", var, "\nTexto2") # Printa texto seguido de quebra de linha seguido de outro texto
 print("MC102", "UNICAMP", "2022", sep = " - ", end = "!\n") # Printa "MC102 - UNICAMP - 2022!" e pula linha
 # Por padrão, sep = " " e end = "\n"
