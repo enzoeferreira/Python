@@ -62,4 +62,18 @@ x = 10 # Atribui 10 a "x"
 x, y = 10, 20 # Atribui 10 a "x" e 20 a "y"
 ```
 
+## Inclusão de bibliotecas
+
+```py
+import nomeDaBiblioteca
+from nomeDaBiblioteca import funcaoEspecifica
+```
+Exemplos de uso
+```py
+import math
+```
+```py
+from math import pi
+```
+
 ## Funções importantes
