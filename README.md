@@ -89,7 +89,14 @@ x, y = 10, 20 # Atribui 10 a "x" e 20 a "y"
 
 ### Concatenação de String
 
+```py
+"Texto1" + " Texto2" = "Texto1 Texto2"
+"A" * 3 = "AAA"
+"1" + "1" = "11"
 
+"a" < "b" = True
+# Ordem do alfabeto: ABC...XYZabc...xyz
+```
 
 ## Inclusão de bibliotecas
 
