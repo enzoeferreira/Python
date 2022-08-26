@@ -65,9 +65,7 @@ resultado = int(a) + int(b)
 
     += -> Incrementa
     -= -> Decréscimo
-    *=
-    /=
-    %=
+    Outros operadores também podem ser combinados com "="
 
 ### Atribuição de variável
 
@@ -77,6 +75,10 @@ x, y = 10, 20 # Atribui 10 a "x" e 20 a "y"
 
 # Obs: Python é case sensitive
 ```
+
+### Concatenação de String
+
+
 
 ## Inclusão de bibliotecas
 
