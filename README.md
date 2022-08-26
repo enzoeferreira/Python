@@ -65,6 +65,9 @@ resultado = int(a) + int(b)
 
     += -> Incrementa
     -= -> Decréscimo
+    *=
+    /=
+    %=
 
 ### Atribuição de variável
 
