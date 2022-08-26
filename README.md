@@ -37,6 +37,7 @@ else:
     # comando (PRECISA DE IDENTAÇÃO)
 
 type(var) # Retorna o tipo da variável (int, str, float etc)
+# Formato: <class 'type'>
 ```
 
 ### Tipos de dados
