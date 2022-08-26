@@ -63,6 +63,13 @@ resultado = int(a) + int(b)
     %  -> Resto da divisão
     ** -> Potenciação
 
+    >  -> Maior
+    <  -> Menor
+    >= -> Maior ou igual
+    <= -> Menor ou igual
+    == -> Igual
+    != -> Diferente
+
     += -> Incrementa
     -= -> Decréscimo
     Outros operadores também podem ser combinados com "="
