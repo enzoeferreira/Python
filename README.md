@@ -48,9 +48,11 @@ float = 11.10 # Float (Números decimais)
 str = "Enzo" # String (Texto)
 bool = True # Booleana (True ou False)
 ```
-Casting
+Conversão
 ```py
-resultado = int(a) + int(b)
+a = "1"
+b = "1"
+resultado = int(a) + int(b) # resultado = 2 ao invés de "11"
 ```
 
 ### Operadores
