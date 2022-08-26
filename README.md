@@ -53,6 +53,8 @@ Conversão
 a = "1"
 b = "1"
 resultado = int(a) + int(b) # resultado = 2 ao invés de "11"
+
+# Com bool(), qualquer número != 0 e qualquer string != "" resultam em True
 ```
 
 ### Operadores
