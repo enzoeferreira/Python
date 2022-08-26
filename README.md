@@ -43,6 +43,7 @@ else:
 int = 11 # Inteiro
 float = 11.10 # Float (Números decimais)
 str = "Enzo" # String (Texto)
+bool = True # Booleana (True ou False)
 ```
 Casting
 ```py
