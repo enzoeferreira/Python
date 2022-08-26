@@ -70,6 +70,8 @@ resultado = int(a) + int(b)
 ```py
 x = 10 # Atribui 10 a "x"
 x, y = 10, 20 # Atribui 10 a "x" e 20 a "y"
+
+# Obs: Python é case sensitive
 ```
 
 ## Inclusão de bibliotecas
