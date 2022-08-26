@@ -35,6 +35,8 @@ elif: # Equivalente ao else if
     # comando (PRECISA DE IDENTAÇÃO)
 else:
     # comando (PRECISA DE IDENTAÇÃO)
+
+type(var) # Retorna o tipo da variável (int, str, float etc)
 ```
 
 ### Tipos de dados
