@@ -78,9 +78,13 @@ from nomeDaBiblioteca import funcaoEspecifica
 Exemplos de uso
 ```py
 import math
+
+x = math.pi
 ```
 ```py
 from math import pi
+
+x = pi
 ```
 
 ## Funções importantes
