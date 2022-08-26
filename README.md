@@ -70,6 +70,10 @@ resultado = int(a) + int(b)
     == -> Igual
     != -> Diferente
 
+    and -> e
+    or  -> ou
+    not -> não
+
     += -> Incrementa
     -= -> Decréscimo
     Outros operadores também podem ser combinados com "="
