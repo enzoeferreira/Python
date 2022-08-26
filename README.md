@@ -36,6 +36,9 @@ elif: # Equivalente ao else if
 else:
     # comando (PRECISA DE IDENTAÇÃO)
 
+min(x1, x2, x3) # Retorna o MENOR valor entre x1, x2 e x3
+max(x1, x2, x3) # Retorna o MAIOR valor entre x1, x2 e x3
+
 type(var) # Retorna o tipo da variável (int, str, float etc)
 # Formato: <class 'type'>
 ```
