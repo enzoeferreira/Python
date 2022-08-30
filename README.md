@@ -40,6 +40,11 @@ else:
     # comando (PRECISA DE IDENTAÇÃO)
 # Na condição, qualquer expressão que tenha um valor != 0 é considerada True
 
+try:
+    # comando
+except:
+    # comando
+
 round(var, casas) # Arredonda a variável "var" para um certo número de casas decimais
 round(var) # Transforma a variável "var" float em inteiro
 
