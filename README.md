@@ -35,6 +35,7 @@ elif: # Equivalente ao else if
     # comando (PRECISA DE IDENTAÇÃO)
 else:
     # comando (PRECISA DE IDENTAÇÃO)
+# Na condição, qualquer expressão que tenha um valor != 0 é considerada True
 
 min(x1, x2, x3) # Retorna o MENOR valor entre x1, x2 e x3
 max(x1, x2, x3) # Retorna o MAIOR valor entre x1, x2 e x3
