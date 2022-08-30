@@ -25,6 +25,9 @@ print("MC102", "UNICAMP", "2022", sep = " - ", end = "!\n") # Printa "MC102 - UN
 # Por padrão, sep = " " e end = "\n"
 print("\\n") # Printa \n (Não quebra linha)
 
+print(f"var = {var:.xf}")       # Printa a variável "var" com "x" casas decimais
+print("var =", round(var, x))   # Printa a variável "var" com "x" casas decimais
+
 var = input() # Aguarda receber entrada
 var = input("Texto") # Printa o texto e espera por entrada
 var = int(input()) # Casting de inteiro no input (String por padrão) 
@@ -36,6 +39,9 @@ elif: # Equivalente ao else if
 else:
     # comando (PRECISA DE IDENTAÇÃO)
 # Na condição, qualquer expressão que tenha um valor != 0 é considerada True
+
+round(var, casas) # Arredonda a variável "var" para um certo número de casas decimais
+round(var) # Transforma a variável "var" float em inteiro
 
 min(x1, x2, x3) # Retorna o MENOR valor entre x1, x2 e x3
 max(x1, x2, x3) # Retorna o MAIOR valor entre x1, x2 e x3
