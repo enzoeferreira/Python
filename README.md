@@ -43,7 +43,7 @@ else:
 try:
     # comando
 except:
-    # comando
+    # comando, caso o comando acima der erro
 
 round(var, casas) # Arredonda a variável "var" para um certo número de casas decimais
 round(var) # Transforma a variável "var" float em inteiro
