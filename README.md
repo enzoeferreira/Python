@@ -55,6 +55,7 @@ type(var) # Retorna o tipo da variável (int, str, float etc)
 # Formato: <class 'type'>
 
 exit(0) # Fecha o programa de forma "amigável" (Por conta do 0)
+# Obs: Não utilizar fora do interpretador
 ```
 
 ### Tipos de dados
