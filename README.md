@@ -53,6 +53,8 @@ max(x1, x2, x3) # Retorna o MAIOR valor entre x1, x2 e x3
 
 type(var) # Retorna o tipo da variável (int, str, float etc)
 # Formato: <class 'type'>
+
+exit(0) # Fecha o programa de forma "amigável" (Por conta do 0)
 ```
 
 ### Tipos de dados
