@@ -184,5 +184,3 @@ x = pi
 ```
 
 ## Funções importantes
-
-teste
