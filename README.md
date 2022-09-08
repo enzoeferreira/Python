@@ -146,6 +146,25 @@ x, y = 10, 20 # Atribui 10 a "x" e 20 a "y"
 # Ordem do alfabeto: ABC...XYZabc...xyz
 ```
 
+## Listas
+
+### Criação de listas
+
+```py
+listas = [x, y, z]
+listas = ["a", "b", "c"]
+listas = [x, "a", y, "b", z, "c"]
+```
+
+### Ordenação de listas
+
+```py
+listas.sort() # Aceita 2 argumentos
+
+listas.sort()               # Ordem crescente
+listas.sort(reverse = True) # Ordem decrescente
+```
+
 ## Inclusão de bibliotecas
 
 ```py
