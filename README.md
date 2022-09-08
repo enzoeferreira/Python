@@ -60,6 +60,17 @@ for i in range (1, n + 1) # de 1 até n
     # comando
     # i += 1
 
+for i in range (1, n, 2) # de 1 até n - 1
+    # comando
+    # i += 2
+
+# 3 parâmetros
+range(inicio, fim, passo)
+# 2 parâmetros
+range(inicio, fim)  # Por padrão, passo += 1
+# 1 parâmetro
+range(fim)          # Por padrão, inicio = 0
+
 round(var, casas) # Arredonda a variável "var" para um certo número de casas decimais
 round(var) # Transforma a variável "var" float em inteiro
 
