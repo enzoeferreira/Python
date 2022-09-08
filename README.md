@@ -48,6 +48,18 @@ except:
 while condição:
     # comando
 
+for i in range (n): # De 0 até n - 1
+    # comando
+    # i += 1
+
+for i in range (1, n) # de 1 até n - 1
+    # comando
+    # i += 1
+
+for i in range (1, n + 1) # de 1 até n
+    # comando
+    # i += 1
+
 round(var, casas) # Arredonda a variável "var" para um certo número de casas decimais
 round(var) # Transforma a variável "var" float em inteiro
 
