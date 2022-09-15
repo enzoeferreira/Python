@@ -50,30 +50,42 @@ while condição:
 
 for variavel in sequencia:
     # comando
+"""
+Sequência é qualquer tipo sequencial do python
+Ex: Lista, String, Tupla etc.
+"""
+```
 
-for i in range (n): # De 0 até n - 1
-    # comando
-    # i += 1
-
-for i in range (1, n) # de 1 até n - 1
-    # comando
-    # i += 1
-
-for i in range (1, n + 1) # de 1 até n
-    # comando
-    # i += 1
-
-for i in range (1, n, 2) # de 1 até n - 1
-    # comando
-    # i += 2
-
+```py
 # 3 parâmetros
 range(inicio, fim, passo)
 # 2 parâmetros
 range(inicio, fim)  # Por padrão, passo += 1
 # 1 parâmetro
 range(fim)          # Por padrão, inicio = 0
+```
 
+Exemplos de for com range()
+
+```py
+for i in range(n): # De 0 até n - 1
+    # comando
+    # i += 1
+
+for i in range(1, n) # de 1 até n - 1
+    # comando
+    # i += 1
+
+for i in range(1, n + 1) # de 1 até n
+    # comando
+    # i += 1
+
+for i in range(1, n, 2) # de 1 até n - 1
+    # comando
+    # i += 2
+```
+
+```py
 round(var, casas) # Arredonda a variável "var" para um certo número de casas decimais
 round(var) # Transforma a variável "var" float em inteiro
 
