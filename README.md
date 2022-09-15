@@ -209,7 +209,7 @@ listas[2:4] = [] # listas = [0, 1, 4, 5]
 ### Adicionar elementos
 
 ```py
-listas.insert(pos, elemento) # Insere um elemento na pos
+listas.insert(pos, elemento) # Insere um elemento na pos (não remove nenhum elemento)
 listas.append(elemento) # Adiciona o elemento no final da lista
 ```
 ```py
