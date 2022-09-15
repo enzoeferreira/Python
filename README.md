@@ -206,6 +206,28 @@ listas[1:4] = ['A', 'B',] # listas = [0, 'A', 'B', 4, 5]
 listas[2:4] = [] # listas = [0, 1, 4, 5]
 ```
 
+### Adicionar elementos
+
+```py
+listas.insert(pos, elemento) # Insere um elemento na pos
+listas.append(elemento) # Adiciona o elemento no final da lista
+```
+```py
+listas = [0, 1, 2, 3]
+
+listas.insert(0, 'x') # listas = ['x', 0, 1, 2, 3]
+listas.append('x') # listas = [0, 1, 2, 3, 'x']
+```
+
+### Verificação de elementos
+
+```py
+letras = ['A', 'B', 'C', 'D', 'E']
+
+'A' in letras # True
+'F' in letras # False
+```
+
 ### Intervalo de listas
 
 ```py
