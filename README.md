@@ -48,6 +48,9 @@ except:
 while condição:
     # comando
 
+for variavel in sequencia:
+    # comando
+
 for i in range (n): # De 0 até n - 1
     # comando
     # i += 1
