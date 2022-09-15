@@ -155,6 +155,31 @@ listas = [x, y, z]
 listas = ["a", "b", "c"]
 listas = [x, "a", y, "b", z, "c"]
 ```
+Pela função list()
+```py
+listas = list() # listas = []
+listas = list(range(5)) # listas = [0, 1, 2, 3, 4]
+listas = list(["x1", "x2", "x3"]) # listas = [x1, x2, x3]
+listas = list("test") # listas = ['t', 'e', 's', 't']
+# Strings são listas de caractéres
+```
+
+### Acessar elementos
+
+```py
+listas = ['A', 'B', 'C', 'D', 'E']
+
+listas[0]  # 'A'
+listas[-1] # 'E'
+```
+
+### Tamanho de listas len()
+
+```py
+listas = ['A', 'B', 'C', 'D', 'E']
+
+len(listas) # 5
+```
 
 ### Ordenação de listas
 
