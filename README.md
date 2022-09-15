@@ -80,7 +80,7 @@ for i in range(1, n + 1) # de 1 até n
     # comando
     # i += 1
 
-for i in range(1, n, 2) # de 1 até n - 1
+for i in range(1, n, 2) # de 1 até n - 1 ou menor
     # comando
     # i += 2
 ```
