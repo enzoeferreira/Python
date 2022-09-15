@@ -173,6 +173,31 @@ listas[0]  # 'A'
 listas[-1] # 'E'
 ```
 
+### Intervalo de listas
+
+```py
+listas[start:stop:step]
+# Começa em start (inclui), termina em stop (exclui) e vai de step em step
+
+"""
+Por padrão
+start = 0
+stop = len(listas)
+step = 1
+"""
+```
+Exemplos de uso
+```py
+listas = ['A', 'B', 'C', 'D', 'E']
+
+listas[1:3]  # 'B', 'C'
+listas[:2]   # 'A', 'B'
+listas[-3]   # 'C', 'D', 'E'
+listas[::2]  # 'A', 'C', 'E'
+listas[1::2] # 'B', 'D'
+listas[::-1] # 'E', 'D', 'C', 'B', 'A'
+```
+
 ### Tamanho de listas len()
 
 ```py
