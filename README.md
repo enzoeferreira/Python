@@ -188,6 +188,24 @@ listas[0]  # 'A'
 listas[-1] # 'E'
 ```
 
+### Alterar elementos
+
+```py
+listas = ['A', 'B', 'C', 'D', 'E']
+
+listas[2] = 'x' # listas = ['A', 'B', 'x', 'D', 'E']
+```
+
+Alterar elementos com intervalos
+
+```py
+listas = [0, 1, 2, 3, 4, 5]
+
+listas[1:4] = ['A', 'B', 'C'] # listas = [0, 'A', 'B', 'C', 4, 5]
+listas[1:4] = ['A', 'B',] # listas = [0, 'A', 'B', 4, 5]
+listas[2:4] = [] # listas = [0, 1, 4, 5]
+```
+
 ### Intervalo de listas
 
 ```py
