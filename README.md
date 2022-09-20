@@ -40,6 +40,8 @@ else:
     # comando (PRECISA DE IDENTAÇÃO)
 # Na condição, qualquer expressão que tenha um valor != 0 é considerada True
 
+a if condição else b
+
 try:
     # comando
 except:
