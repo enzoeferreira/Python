@@ -41,6 +41,8 @@ else:
 # Na condição, qualquer expressão que tenha um valor != 0 é considerada True
 
 a if condição else b
+# Condição TRUE  -> Executa A
+# Condição FALSE -> Executa B
 
 try:
     # comando
