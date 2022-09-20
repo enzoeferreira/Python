@@ -261,6 +261,14 @@ listas = ['A', 'B', 'C', 'D', 'E']
 len(listas) # 5
 ```
 
+### Soma de listas
+
+```py
+listas = [1, 2, 3, 4, 5]
+
+soma = sum(listas) # soma = 15
+```
+
 ### Ordenação de listas
 
 ```py
