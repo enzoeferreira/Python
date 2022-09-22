@@ -243,9 +243,9 @@ letras = ['A', 'B', 'C', 'D', 'E']
 ```
 ```py
 # Verificar Index
-letras = ['A', 'B', 'C', 'D', 'E']
+letras = ['A', 'B', 'C', 'D', 'E', 'A']
 
-letras.index('A') # 0
+letras.index('A') # 0 -> Primeira ocorrência
 letras.index('E') # 4
 ```
 
