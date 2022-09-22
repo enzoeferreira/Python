@@ -189,6 +189,15 @@ n = int(input())
 listas = [int(input()) for i in range(n)]
 ```
 
+### Print de listas
+
+```py
+listas = ['A', 'B', 'C', 'D', 'E']
+
+print(listas)  # ['A', 'B', 'C', 'D', 'E']
+print(*listas) # A B C D E
+```
+
 ### Acessar elementos
 
 ```py
