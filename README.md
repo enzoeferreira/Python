@@ -349,6 +349,12 @@ b = a.copy() # b = [1, 2, 3] -> Independente
 
 ## Métodos
 
+### Class String
+
+```py
+
+```
+
 ## Inclusão de bibliotecas
 
 ```py
