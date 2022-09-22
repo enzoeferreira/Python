@@ -352,7 +352,7 @@ b = a.copy() # b = [1, 2, 3] -> Independente
 ### Class String
 
 ```py
-
+.strip() # Retira espaços, \n etc
 ```
 
 ## Inclusão de bibliotecas
