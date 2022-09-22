@@ -230,6 +230,7 @@ letras = [0, 1, 2, 1]
 
 letras.remove(1) # letras = [0, 2, 1]
 # Remove a primeira ocorrência de 1
+# Obs: Se o elemento não estiver na lista, teremos um erro
 ```
 
 ### Verificação de elementos
