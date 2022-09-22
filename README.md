@@ -223,6 +223,15 @@ listas.insert(0, 'x') # listas = ['x', 0, 1, 2, 3]
 listas.append('x') # listas = [0, 1, 2, 3, 'x']
 ```
 
+### Remover elementos
+
+```py
+letras = [0, 1, 2, 1]
+
+letras.remove(1) # letras = [0, 2, 1]
+# Remove a primeira ocorrência de 1
+```
+
 ### Verificação de elementos
 
 ```py
