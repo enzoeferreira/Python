@@ -322,6 +322,14 @@ listas.sort() # Aceita 2 argumentos
 listas.sort()               # Ordem crescente
 listas.sort(reverse = True) # Ordem decrescente
 ```
+Cópia ordenada sem alterar a lista
+```py
+listas = [5, 4, 3, 2, 1]
+
+print(listas)           # [5, 4, 3, 2 ,1]
+print(sorted(listas))   # [1, 2, 3, 4, 5]
+print(listas)           # [5, 4, 3, 2 ,1]
+```
 
 ### Reversão de listas
 
