@@ -257,6 +257,16 @@ letras.index('A') # 0 -> Primeira ocorrência
 letras.index('E') # 4
 ```
 
+### Contagem de elementos
+
+```py
+listas = ['A', 'B', 'B', 'C', 'B', 'C']
+
+listas.count('A') # 1
+listas.count('B') # 3
+listas.count('C') # 2
+```
+
 ### Intervalo de listas
 
 ```py
