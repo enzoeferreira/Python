@@ -226,10 +226,18 @@ listas.append('x') # listas = [0, 1, 2, 3, 'x']
 ### Verificação de elementos
 
 ```py
+# Verificar existência
 letras = ['A', 'B', 'C', 'D', 'E']
 
 'A' in letras # True
 'F' in letras # False
+```
+```py
+# Verificar Index
+letras = ['A', 'B', 'C', 'D', 'E']
+
+letras.index('A') # 0
+letras.index('E') # 4
 ```
 
 ### Intervalo de listas
