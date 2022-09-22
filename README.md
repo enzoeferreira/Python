@@ -353,6 +353,7 @@ b = a.copy() # b = [1, 2, 3] -> Independente
 
 ```py
 .strip() # Retira espaços, \n etc
+.capitalize() # Inicial maiúscula
 ```
 
 ## Inclusão de bibliotecas
