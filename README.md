@@ -182,6 +182,12 @@ listas = list(["x1", "x2", "x3"]) # listas = [x1, x2, x3]
 listas = list("test") # listas = ['t', 'e', 's', 't']
 # Strings são listas de caractéres
 ```
+Forma compacta com input
+```py
+n = int(input())
+
+listas = [int(input()) for i in range(n)]
+```
 
 ### Acessar elementos
 
