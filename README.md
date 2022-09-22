@@ -323,6 +323,14 @@ listas.sort()               # Ordem crescente
 listas.sort(reverse = True) # Ordem decrescente
 ```
 
+### Reversão de listas
+
+```py
+listas = ['A', 'B', 'C', 'D', 'E']
+
+listas.reverse() # listas = ['E', 'D', 'C', 'B', 'A']
+```
+
 ## Inclusão de bibliotecas
 
 ```py
