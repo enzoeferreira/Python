@@ -226,11 +226,18 @@ listas.append('x') # listas = [0, 1, 2, 3, 'x']
 ### Remover elementos
 
 ```py
+# Remover da lista por elemento
 letras = [0, 1, 2, 1]
 
 letras.remove(1) # letras = [0, 2, 1]
 # Remove a primeira ocorrência de 1
 # Obs: Se o elemento não estiver na lista, teremos um erro
+```
+```py
+# Remover da lista por posição
+letras = ['A', 'B', 'C', 'D', 'E']
+
+letras.pop(1) # Retorna 'B' -> letras = ['A', 'C', 'D', 'E']
 ```
 
 ### Verificação de elementos
