@@ -339,6 +339,14 @@ listas = ['A', 'B', 'C', 'D', 'E']
 listas.reverse() # listas = ['E', 'D', 'C', 'B', 'A']
 ```
 
+### Cópia de listas
+
+```py
+a = [1, 2, 3]
+
+b = a.copy() # b = [1, 2, 3] -> Independente
+```
+
 ## Inclusão de bibliotecas
 
 ```py
