@@ -347,6 +347,8 @@ a = [1, 2, 3]
 b = a.copy() # b = [1, 2, 3] -> Independente
 ```
 
+## Métodos
+
 ## Inclusão de bibliotecas
 
 ```py
