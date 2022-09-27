@@ -369,6 +369,8 @@ b = a.copy() # b = [1, 2, 3] -> Independente
 ```py
 .strip() # Retira espaços, \n etc
 .capitalize() # Inicial maiúscula
+.split(separador) # Transforma uma string em uma lista de strings, separando pelo separador
+# Por padrão, separador = " " -> Espaço
 ```
 
 ## Inclusão de bibliotecas
