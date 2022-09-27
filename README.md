@@ -215,7 +215,7 @@ listas = ['A', 'B', 'C', 'D', 'E']
 listas[2] = 'x' # listas = ['A', 'B', 'x', 'D', 'E']
 ```
 
-Alterar elementos com intervalos
+Alterar elementos com intervalos (Slice)
 
 ```py
 listas = [0, 1, 2, 3, 4, 5]
