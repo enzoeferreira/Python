@@ -362,6 +362,15 @@ a = [1, 2, 3]
 b = a.copy() # b = [1, 2, 3] -> Independente
 ```
 
+### Casting em listas c/ map()
+
+```py
+entrada = ["1", "2", "3", "4", "5"]
+entradaInt = list(map(int, entrada)) # [1, 2, 3, 4, 5]
+# map aplica int em cada elemento da entrada
+# list() aplica list no map
+```
+
 ## Métodos
 
 ### Class String
