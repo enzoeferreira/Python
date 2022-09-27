@@ -282,11 +282,17 @@ listas.count('B') # 3
 listas.count('C') # 2
 ```
 
-### Intervalo de listas
+### Intervalo de listas (Slice)
 
 ```py
 listas[start:stop:step]
-# Começa em start (inclui), termina em stop (exclui) e vai de step em step
+"""
+Começa em start (inclui), termina em stop (exclui) e vai de step em step
+
+Equivale a:
+"""
+
+[lista[i] for i in range(início, fim, passo)]
 
 """
 Por padrão
