@@ -21,7 +21,7 @@ print(f"texto{var}") # Printa texto seguido de variável
 print(f"{var:.nf}") # Printa variável float com "n" casas decimais
 
 print("Texto1", var, "\nTexto2") # Printa texto seguido de quebra de linha seguido de outro texto
-print("MC102", "UNICAMP", "2022", sep = " - ", end = "!\n") # Printa "MC102 - UNICAMP - 2022!" e pula linha
+print("MC102", "UNICAMP", "2022", sep = " - ", end = "!\n") # "MC102 - UNICAMP - 2022!" e pula linha
 # Por padrão, sep = " " e end = "\n"
 print("\\n") # Printa \n (Não quebra linha)
 
