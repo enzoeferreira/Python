@@ -110,6 +110,7 @@ int = 11 # Inteiro
 float = 11.10 # Float (Números decimais)
 str = "Enzo" # String (Texto)
 bool = True # Booleana (True ou False)
+None # NoneType (Nada, vazio, algo a ser preenchido etc.)
 ```
 Conversão
 ```py
