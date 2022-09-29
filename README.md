@@ -191,6 +191,18 @@ listas = [int(input()) for i in range(n)]
 ```
 ### Operações com listas
 
+```py
+# Multiplicação por Inteiro
+lista = [1] * 3 # lista = [1, 1, 1]
+
+# Soma de lista com lista
+lista = [1, 2, 3]
+
+lista2 = lista + [4, 5] # lista2 = [1, 2, 3, 4, 5]
+# OU
+lista += [4, 5] # lista = [1, 2, 3, 4, 5]
+```
+
 ### Print de listas
 
 ```py
