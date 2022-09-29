@@ -189,6 +189,7 @@ n = int(input())
 
 listas = [int(input()) for i in range(n)]
 ```
+### Operações com listas
 
 ### Print de listas
 
