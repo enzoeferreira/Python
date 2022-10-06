@@ -412,11 +412,11 @@ string[start:stop:step] # String c/ slice
 ```
 
 ```py
-"Texto1" + " Texto2" = "Texto1 Texto2"
-"A" * 3 = "AAA"
-"1" + "1" = "11"
+"Texto1" + "Texto2" # "Texto1Texto2"
+"A" * 3 # "AAA"
+"1" + "1" # "11"
 
-"a" < "b" = True
+"a" < "b" # True
 # Ordem do alfabeto: ABC...XYZabc...xyz
 
 string = "Olá mundo"
