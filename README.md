@@ -155,17 +155,6 @@ x, y = 10, 20 # Atribui 10 a "x" e 20 a "y"
 # Obs: Python é case sensitive
 ```
 
-### Concatenação de String
-
-```py
-"Texto1" + " Texto2" = "Texto1 Texto2"
-"A" * 3 = "AAA"
-"1" + "1" = "11"
-
-"a" < "b" = True
-# Ordem do alfabeto: ABC...XYZabc...xyz
-```
-
 ## Listas
 
 ### Criação de listas
@@ -420,6 +409,15 @@ string[x] # Acessa o índice x da string
 string[start:stop:step] # String c/ slice
 # Vai de start até stoop - 1 de step em step
 # Por padrão: start = 0; stop = len(string); step = 1
+```
+
+```py
+"Texto1" + " Texto2" = "Texto1 Texto2"
+"A" * 3 = "AAA"
+"1" + "1" = "11"
+
+"a" < "b" = True
+# Ordem do alfabeto: ABC...XYZabc...xyz
 ```
 
 ## Inclusão de bibliotecas
