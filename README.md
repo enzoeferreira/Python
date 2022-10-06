@@ -251,6 +251,13 @@ listas = [0, 1, 2, 3]
 listas.insert(0, 'x') # listas = ['x', 0, 1, 2, 3]
 listas.append('x') # listas = [0, 1, 2, 3, 'x']
 ```
+```py
+listas = [0, 1, 2, 3]
+adicionar = [4, 5, 6]
+
+listas.append(adicionar) # listas = [0, 1, 2, 3, [4, 5, 6]]
+listas.extend(adicionar) # listas = [0, 1, 2, 3, 4, 5, 6]
+```
 
 ### Remover elementos
 
