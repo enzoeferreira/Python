@@ -412,6 +412,13 @@ string[start:stop:step] # String c/ slice
 ```
 
 ```py
+.index() # Retorna o index que começa o argumento
+.find() # Retorna o index que começa o argumento, retorna -1 caso não encontre
+.startswith("Olá") # True
+.startswith("mundo") # False
+```
+
+```py
 "Texto1" + "Texto2" # "Texto1Texto2"
 "A" * 3 # "AAA"
 "1" + "1" # "11"
@@ -422,9 +429,6 @@ string[start:stop:step] # String c/ slice
 string = "Olá mundo"
 "Ol" in string # True
 "Do" in string # False
-
-string.startswith("Olá") # True
-string.startswith("mundo") # False
 ```
 
 ## Inclusão de bibliotecas
