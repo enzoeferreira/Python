@@ -414,6 +414,13 @@ entradaInt = list(map(int, entrada)) # [1, 2, 3, 4, 5]
 # Por padrão, separador = " " -> Espaço
 ```
 
+```py
+string[x] # Acessa o índice x da string
+string[start:stop:step] # String c/ slice
+# Vai de start até stoop - 1 de step em step
+# Por padrão: start = 0; stop = len(string); step = 1
+```
+
 ## Inclusão de bibliotecas
 
 ```py
