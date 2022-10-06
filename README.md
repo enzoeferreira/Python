@@ -387,6 +387,15 @@ entradaInt = list(map(int, entrada)) # [1, 2, 3, 4, 5]
 # list() aplica list no map
 ```
 
+### Join (Inverso do .split())
+
+Transforma uma lista de strings em uma string separadas
+```py
+listas = ["A", "B", "C"]
+listasJoin = " ".join(listas) # listasJoin = "A B C"
+listasJoin2 = ", ".join(listas) # listasJoin2 = "A, B, C"
+```
+
 ## Métodos
 
 ### Class String
