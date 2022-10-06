@@ -418,6 +418,13 @@ string[start:stop:step] # String c/ slice
 
 "a" < "b" = True
 # Ordem do alfabeto: ABC...XYZabc...xyz
+
+string = "Olá mundo"
+"Ol" in string # True
+"Do" in string # False
+
+string.startswith("Olá") # True
+string.startswith("mundo") # False
 ```
 
 ## Inclusão de bibliotecas
