@@ -155,6 +155,20 @@ x, y = 10, 20 # Atribui 10 a "x" e 20 a "y"
 # Obs: Python é case sensitive
 ```
 
+## Funções
+
+```py
+def nome(inputs): # Define a função "nome" que requer "input"
+    return var # Retorna a variável "var"
+
+def nome(input:type): # Definição de função com type hint de input
+def nome(input:typeIn)->typeOut: # Define a função com type hint de input e output
+"""
+Type Hint não tem muito uso prático, apenas no autocompletar
+em algumas IDEs, é tipo um comentário
+"""
+```
+
 ## Listas
 
 ### Criação de listas
