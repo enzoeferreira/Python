@@ -171,6 +171,7 @@ x, y = 10, 20 # Atribui 10 a "x" e 20 a "y"
 
 ## Funções
 
+### Criação de funções
 ```py
 def nome(inputs): # Define a função "nome" que requer "input"
     return var # Retorna a variável "var"
