@@ -3,8 +3,15 @@
 
 # Lembretes
 1. [Syntax](#Syntax)
-   1. [Tipos de dados](#Tipos_de_dados)
+   1. [Tipos de dados](#tipos-de-dados)
+   2. [Operadores](#operadores)
+   3. [Atribuição de variável](#atribuição-de-variável)
 2. [Funções](#funções)
+3. [Listas, Tuplas e Dicionários](#listas-tuplas-e-dicionários)
+4. [Métodos](#métodos)
+   1. [String](#class-string)
+5. [Inclusão de Bibliotecas](#inclusão-de-bibliotecas)
+6. [Funções Importantes](#funções-importantes)
 
 ## Syntax
 
