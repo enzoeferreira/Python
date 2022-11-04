@@ -3,6 +3,8 @@
 
 # Lembretes
 1. [Syntax](#Syntax)
+   1. [Tipos de dados](#Tipos_de_dados)
+2. [Funções](#funções)
 
 ## Syntax
 
