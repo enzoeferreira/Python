@@ -33,10 +33,10 @@
     - [Dicionários (dict)](#dicionários-dict)
   - [Métodos](#métodos)
     - [Class String](#class-string)
-      - [Formatação](#formatação)
-      - [Acessar elementos](#acessar-elementos-1)
       - [Operações com strings](#operações-com-strings)
       - [Verificação de ocorrência](#verificação-de-ocorrência)
+      - [Acessar elementos](#acessar-elementos-1)
+      - [Formatação](#formatação)
     - [Class List](#class-list)
   - [Inclusão de bibliotecas](#inclusão-de-bibliotecas)
   - [Funções importantes](#funções-importantes)
@@ -460,33 +460,6 @@ print(dicionario) # {key: value, a: "b", "c": d}
 
 ### Class String
 
-#### Formatação
-```py
-.capitalize() # Inicial maiúscula
-.upper() # Todas maiúsculas
-.lower() # Todas minúsculas
-```
-```py
-.strip() # Retira espaços, \n etc das extremidades
-.replace("x", "y") # Troca os "x" por "y"
-.split(separador) # Transforma uma string em uma lista de strings, separando pelo separador
-# Por padrão, separador = " " -> Espaço
-```
-
-#### Acessar elementos
-```py
-string[x] # Acessa o índice x da string
-string[start:stop:step] # String c/ slice
-# Vai de start até stoop - 1 de step em step
-# Por padrão: start = 0; stop = len(string); step = 1
-```
-
-```py
-.index() # Retorna o index que começa o argumento
-.find() # Retorna o index que começa o argumento, retorna -1 caso não encontre
-.startswith("Olá") # True
-.startswith("mundo") # False
-```
 #### Operações com strings
 ```py
 "Texto1" + "Texto2" # "Texto1Texto2"
@@ -501,6 +474,35 @@ string[start:stop:step] # String c/ slice
 string = "Olá mundo"
 "Ol" in string # True
 "Do" in string # False (Case sensitive)
+
+.startswith("Olá") # True
+.startswith("mundo") # False
+```
+
+#### Acessar elementos
+```py
+string[x] # Acessa o índice x da string
+string[start:stop:step] # String c/ slice
+# Vai de start até stoop - 1 de step em step
+# Por padrão: start = 0; stop = len(string); step = 1
+```
+
+```py
+.index() # Retorna o index que começa o argumento
+.find() # Retorna o index que começa o argumento, retorna -1 caso não encontre
+```
+
+#### Formatação
+```py
+.capitalize() # Inicial maiúscula
+.upper() # Todas maiúsculas
+.lower() # Todas minúsculas
+```
+```py
+.strip() # Retira espaços, \n etc das extremidades
+.replace("x", "y") # Troca os "x" por "y"
+.split(separador) # Transforma uma string em uma lista de strings, separando pelo separador
+# Por padrão, separador = " " -> Espaço
 ```
 
 ### Class List
