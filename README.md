@@ -8,6 +8,9 @@
    3. [Atribuição de variável](#atribuição-de-variável)
 2. [Funções](#funções)
 3. [Listas, Tuplas e Dicionários](#listas-tuplas-e-dicionários)
+   1. [Listas](#listas-list)
+   2. [Tuplas](#tuplas-tuple)
+   3. [Dicionários](#dicionários-dict)
 4. [Métodos](#métodos)
    1. [String](#class-string)
 5. [Inclusão de Bibliotecas](#inclusão-de-bibliotecas)
@@ -182,7 +185,7 @@ em algumas IDEs, é tipo um comentário
 
 ## Listas, Tuplas e Dicionários
 
-Listas (list)
+### Listas (list)
 ```py
 lista = [a, "b"]
 
@@ -191,7 +194,7 @@ lista[1] # "b"
 print(lista) # [a, "b"]
 ```
 
-Tuplas (tuple)
+### Tuplas (tuple)
 ```py
 # OBS: Tuplas são listas imutáveis, ou seja, uma vez criadas não permitem modificações.
 tupla = (a, "b")
@@ -201,7 +204,7 @@ tupla[1] # "b"
 print(tupla) # (a, "b")
 ```
 
-Dicionários (dict)
+### Dicionários (dict)
 ```py
 dicionario = {
     key: value,
