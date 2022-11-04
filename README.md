@@ -8,6 +8,13 @@
   - [Atribuição de variável](#atribuição-de-variável)
 - [Funções](#funções)
   - [Criação de funções](#criação-de-funções)
+  - [print()](#print)
+  - [input()](#input)
+  - [range()](#range)
+  - [round()](#round)
+  - [min()/max()](#minmax)
+  - [type()](#type)
+  - [exit()](#exit)
 - [Listas, Tuplas e Dicionários](#listas-tuplas-e-dicionários)
   - [Listas (list)](#listas-list)
     - [Criação de listas](#criação-de-listas)
@@ -51,27 +58,7 @@
 """
 Comentários em várias linhas
 utilizam no início e fim 3 aspas seguidas
-"""
-
-print(var) # Printa uma variável
-print("Hello, World!") # Printa um texto
-
-print("Texto", var) # Printa texto seguido de variável
-print(f"texto{var}") # Printa texto seguido de variável
-
-print(f"{var:.nf}") # Printa variável float com "n" casas decimais
-
-print("Texto1", var, "\nTexto2") # Printa texto seguido de quebra de linha seguido de outro texto
-print("MC102", "UNICAMP", "2022", sep = " - ", end = "!\n") # "MC102 - UNICAMP - 2022!" e pula linha
-# Por padrão, sep = " " e end = "\n"
-print("\\n") # Printa \n (Não quebra linha)
-
-print(f"var = {var:.xf}")       # Printa a variável "var" com "x" casas decimais
-print("var =", round(var, x))   # Printa a variável "var" com "x" casas decimais
-
-var = input() # Aguarda receber entrada
-var = input("Texto") # Printa o texto e espera por entrada
-var = int(input()) # Casting de inteiro no input (String por padrão) 
+""" 
 ```
 
 ## Comandos de repetição
@@ -102,49 +89,6 @@ for variavel in sequencia:
 Sequência é qualquer tipo sequencial do python
 Ex: Lista, String, Tupla etc.
 """
-```
-
-```py
-# 3 parâmetros
-range(inicio, fim, passo)
-# 2 parâmetros
-range(inicio, fim)  # Por padrão, passo += 1
-# 1 parâmetro
-range(fim)          # Por padrão, inicio = 0
-```
-
-Exemplos de range() com for
-
-```py
-for i in range(n): # De 0 até n - 1
-    # comando
-    # i += 1
-
-for i in range(1, n) # de 1 até n - 1
-    # comando
-    # i += 1
-
-for i in range(1, n + 1) # de 1 até n
-    # comando
-    # i += 1
-
-for i in range(1, n, 2) # de 1 até n - 1 ou menor
-    # comando
-    # i += 2
-```
-
-```py
-round(var, casas) # Arredonda a variável "var" para um certo número de casas decimais
-round(var) # Transforma a variável "var" float em inteiro
-
-min(x1, x2, x3) # Retorna o MENOR valor entre x1, x2 e x3
-max(x1, x2, x3) # Retorna o MAIOR valor entre x1, x2 e x3
-
-type(var) # Retorna o tipo da variável (int, str, float etc)
-# Formato: <class 'type'>
-
-exit(0) # Fecha o programa de forma "amigável" (Por conta do 0)
-# Obs: Não utilizar fora do interpretador
 ```
 
 ## Tipos de dados
@@ -212,6 +156,106 @@ def nome(input:typeIn)->typeOut: # Define a função com type hint de input e ou
 Type Hint não tem muito uso prático, apenas no autocompletar
 em algumas IDEs, é tipo um comentário
 """
+```
+
+## print()
+```py
+print(var) # Printa uma variável
+print("Hello, World!") # Printa um texto
+print(sep = " ", end = "\n")
+"""
+Por padrão:
+sep = " "  -> Separador entre argumentos é o espaço
+end = "\n" -> Pula linha ao terminar o print
+"""
+```
+
+Exemplos de uso
+```py
+print("Texto", var) # "Texto var"
+print("var =", round(var, x))   # Printa a variável "var" com "x" casas decimais
+
+# Print formatado recebe um f antes das " "
+print(f"texto {var}") # "texto var"
+print(f"{var:.nf}") # Printa variável float com "n" casas decimais
+
+print("Texto1", var, "\nTexto2")
+"""
+Texto1 var
+Texto2
+"""
+
+print("MC102", "UNICAMP", "2022", sep = " - ", end = "!\n")
+# "MC102 - UNICAMP - 2022!" e pula linha
+
+# Para printar caracteres especiais, usar o escape (\) antes
+print("\\n") # "\n"
+print(" \"Frase entre aspas\" ") # " "Frase entre aspas" "
+```
+
+## input()
+```py
+var = input() # Aguarda receber entrada e guarda na variável "var"
+"""
+A função input() retorna uma string do que foi digitado antes do <ENTER>
+"""
+
+var = input("Entrada: ") # Printa o texto e espera por entrada
+
+var = int(input()) # Casting de inteiro no input
+```
+
+## range()
+```py
+# 3 parâmetros
+range(inicio, fim, passo)
+# 2 parâmetros
+range(inicio, fim)  # Por padrão, passo += 1
+# 1 parâmetro
+range(fim)          # Por padrão, inicio = 0
+```
+
+Exemplos de range() com for
+
+```py
+for i in range(n): # De 0 até n - 1
+    # comando
+    # i += 1
+
+for i in range(1, n) # de 1 até n - 1
+    # comando
+    # i += 1
+
+for i in range(1, n + 1) # de 1 até n
+    # comando
+    # i += 1
+
+for i in range(1, n, 2) # de 1 até n - 1 ou menor
+    # comando
+    # i += 2
+```
+
+## round()
+```py
+round(var, casas) # Arredonda a variável "var" para um certo número de casas decimais
+round(var) # Transforma a variável "var" float em inteiro
+```
+
+## min()/max()
+```py
+min(x1, x2, x3) # Retorna o MENOR valor entre x1, x2 e x3
+max(x1, x2, x3) # Retorna o MAIOR valor entre x1, x2 e x3
+```
+
+## type()
+```py
+type(var) # Retorna o tipo da variável (int, str, float etc)
+# Formato: <class 'type'>
+```
+## exit()
+```py
+exit(0) # Fecha o programa de forma "amigável" (Por conta do 0)
+# Obs: Não utilizar fora do interpretador
 ```
 
 # Listas, Tuplas e Dicionários
