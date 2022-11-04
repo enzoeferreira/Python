@@ -166,7 +166,7 @@ resultado = int(a) + int(b) # resultado = 2 ao invés de "11"
 x = 10 # Atribui 10 a "x"
 x, y = 10, 20 # Atribui 10 a "x" e 20 a "y"
 
-# Obs: Python é case sensitive
+# Obs: Python é case sensitive, ou seja, Var != aar
 ```
 
 ## Funções
