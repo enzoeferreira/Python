@@ -169,6 +169,41 @@ em algumas IDEs, é tipo um comentário
 """
 ```
 
+## Listas, Tuplas e Dicionários
+
+Listas (list)
+```py
+lista = [a, "b"]
+
+lista[0] # a
+lista[1] # "b"
+print(lista) # [a, "b"]
+```
+
+Tuplas (tuple)
+```py
+# OBS: Tuplas são listas imutáveis, ou seja, uma vez criadas não permitem modificações.
+tupla = (a, "b")
+
+tupla[0] # a
+tupla[1] # "b"
+print(tupla) # (a, "b")
+```
+
+Dicionários (dict)
+```py
+dicionario = {
+    key: value,
+    a: "b",
+    "c": d
+}
+# OBS: A key tem que ser algo imutável
+
+dicionario[key] # value
+dicionario[a]   # "b"
+dicionario["c"] # d
+print(dicionario) # {key: value, a: "b", "c": d}
+```
 ## Listas
 
 ### Criação de listas
