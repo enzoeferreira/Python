@@ -120,13 +120,13 @@ exit(0) # Fecha o programa de forma "amigável" (Por conta do 0)
 ### Tipos de dados
 
 ```py
-int = 11 # Inteiro
-float = 11.10 # Float (Números decimais)
-str = "Enzo" # String (Texto)
-bool = True # Booleana (True ou False)
+int -> 11 # Inteiro
+float -> 11.10 # Float (Números decimais)
+str -> "Enzo" # String (Texto)
+bool -> True # Booleana (True ou False)
 None # NoneType (Nada, vazio, algo a ser preenchido etc.)
 ```
-Conversão
+Casting
 ```py
 a = "1"
 b = "1"
