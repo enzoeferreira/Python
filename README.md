@@ -1,47 +1,46 @@
-# Estudos em Python
-- ### [Udemy](https://www.udemy.com/course/curso-algoritmos-logica-de-programacao/)
-
-# Lembretes
 - [Estudos em Python](#estudos-em-python)
-- [Lembretes](#lembretes)
-  - [Syntax](#syntax)
-    - [Tipos de dados](#tipos-de-dados)
-    - [Operadores](#operadores)
-    - [Atribuição de variável](#atribuição-de-variável)
-  - [Funções](#funções)
-    - [Criação de funções](#criação-de-funções)
-  - [Listas, Tuplas e Dicionários](#listas-tuplas-e-dicionários)
-    - [Listas (list)](#listas-list)
-      - [Criação de listas](#criação-de-listas)
-      - [Operações com listas](#operações-com-listas)
-      - [Print de listas](#print-de-listas)
-      - [Acessar elementos](#acessar-elementos)
-      - [Alterar elementos](#alterar-elementos)
-      - [Verificação de elementos](#verificação-de-elementos)
-      - [Intervalo de listas (Slice)](#intervalo-de-listas-slice)
-      - [Tamanho de listas len()](#tamanho-de-listas-len)
-      - [Soma de listas](#soma-de-listas)
-      - [Map](#map)
-    - [Tuplas (tuple)](#tuplas-tuple)
-    - [Dicionários (dict)](#dicionários-dict)
-  - [Métodos](#métodos)
-    - [Class String](#class-string)
-      - [Operações com strings](#operações-com-strings)
-      - [Verificação de ocorrência](#verificação-de-ocorrência)
-      - [Acessar elementos](#acessar-elementos-1)
-      - [Formatação](#formatação)
-    - [Class List](#class-list)
-      - [Adicionar elementos](#adicionar-elementos)
-      - [Remover elementos](#remover-elementos)
-      - [Verificiar ocorrência](#verificiar-ocorrência)
-      - [Contagem de ocorrência](#contagem-de-ocorrência)
-      - [Ordenação de listas](#ordenação-de-listas)
-      - [Cópia de listas](#cópia-de-listas)
-      - [Join](#join)
-  - [Inclusão de bibliotecas](#inclusão-de-bibliotecas)
-  - [Funções importantes](#funções-importantes)
+  - [Udemy](#udemy)
+- [Syntax](#syntax)
+  - [Tipos de dados](#tipos-de-dados)
+  - [Operadores](#operadores)
+  - [Atribuição de variável](#atribuição-de-variável)
+- [Funções](#funções)
+  - [Criação de funções](#criação-de-funções)
+- [Listas, Tuplas e Dicionários](#listas-tuplas-e-dicionários)
+  - [Listas (list)](#listas-list)
+    - [Criação de listas](#criação-de-listas)
+    - [Operações com listas](#operações-com-listas)
+    - [Print de listas](#print-de-listas)
+    - [Acessar elementos](#acessar-elementos)
+    - [Alterar elementos](#alterar-elementos)
+    - [Verificação de elementos](#verificação-de-elementos)
+    - [Intervalo de listas (Slice)](#intervalo-de-listas-slice)
+    - [Tamanho de listas len()](#tamanho-de-listas-len)
+    - [Soma de listas](#soma-de-listas)
+    - [Map](#map)
+  - [Tuplas (tuple)](#tuplas-tuple)
+  - [Dicionários (dict)](#dicionários-dict)
+- [Métodos](#métodos)
+  - [Class String](#class-string)
+    - [Operações com strings](#operações-com-strings)
+    - [Verificação de ocorrência](#verificação-de-ocorrência)
+    - [Acessar elementos](#acessar-elementos-1)
+    - [Formatação](#formatação)
+  - [Class List](#class-list)
+    - [Adicionar elementos](#adicionar-elementos)
+    - [Remover elementos](#remover-elementos)
+    - [Verificiar ocorrência](#verificiar-ocorrência)
+    - [Contagem de ocorrência](#contagem-de-ocorrência)
+    - [Ordenação de listas](#ordenação-de-listas)
+    - [Cópia de listas](#cópia-de-listas)
+    - [Join](#join)
+- [Inclusão de bibliotecas](#inclusão-de-bibliotecas)
+- [Funções importantes](#funções-importantes)
 
-## Syntax
+# Estudos em Python
+## [Udemy](https://www.udemy.com/course/curso-algoritmos-logica-de-programacao/)
+
+# Syntax
 
 ```py
 # Comentários na linha utilizam "#"
@@ -142,7 +141,7 @@ exit(0) # Fecha o programa de forma "amigável" (Por conta do 0)
 # Obs: Não utilizar fora do interpretador
 ```
 
-### Tipos de dados
+## Tipos de dados
 
 ```py
 int -> 11 # Inteiro
@@ -160,7 +159,7 @@ resultado = int(a) + int(b) # resultado = 2 ao invés de "11"
 # Com bool(), qualquer número != 0 e qualquer string != "" resultam em True
 ```
 
-### Operadores
+## Operadores
 
     +  -> Adição
     -  -> Subtração
@@ -185,7 +184,7 @@ resultado = int(a) + int(b) # resultado = 2 ao invés de "11"
     -= -> Decréscimo
     Outros operadores também podem ser combinados com "="
 
-### Atribuição de variável
+## Atribuição de variável
 
 ```py
 x = 10 # Atribui 10 a "x"
@@ -194,9 +193,9 @@ x, y = 10, 20 # Atribui 10 a "x" e 20 a "y"
 # Obs: Python é case sensitive, ou seja, Var != aar
 ```
 
-## Funções
+# Funções
 
-### Criação de funções
+## Criação de funções
 ```py
 def nome(inputs): # Define a função "nome" que requer "input"
     return var # Retorna a variável "var"
@@ -209,11 +208,11 @@ em algumas IDEs, é tipo um comentário
 """
 ```
 
-## Listas, Tuplas e Dicionários
+# Listas, Tuplas e Dicionários
 
-### Listas (list)
+## Listas (list)
 
-#### Criação de listas
+### Criação de listas
 ```py
 listas = [x, y, z]
 listas = ["a", "b", "c"]
@@ -234,7 +233,7 @@ n = int(input())
 listas = [int(input()) for i in range(n)]
 ```
 
-#### Operações com listas
+### Operações com listas
 ```py
 lista = [1] * 3 # lista = [1, 1, 1]
 
@@ -244,7 +243,7 @@ lista2 = lista + [4, 5] # lista2 = [1, 2, 3, 4, 5]
 lista += [4, 5] # lista = [1, 2, 3, 4, 5]
 ```
 
-#### Print de listas
+### Print de listas
 ```py
 listas = ['A', 'B', 'C', 'D', 'E']
 
@@ -252,7 +251,7 @@ print(listas)  # ['A', 'B', 'C', 'D', 'E']
 print(*listas) # A B C D E
 ```
 
-#### Acessar elementos
+### Acessar elementos
 ```py
 listas = ['A', 'B', 'C', 'D', 'E']
 
@@ -260,7 +259,7 @@ listas[0]  # 'A'
 listas[-1] # 'E'
 ```
 
-#### Alterar elementos
+### Alterar elementos
 ```py
 listas = ['A', 'B', 'C', 'D', 'E']
 
@@ -275,7 +274,7 @@ listas[1:4] = ['A', 'B',] # listas = [0, 'A', 'B', 4, 5]
 listas[2:4] = [] # listas = [0, 1, 4, 5]
 ```
 
-#### Verificação de elementos
+### Verificação de elementos
 ```py
 # Verificar existência
 letras = ['A', 'B', 'C', 'D', 'E']
@@ -284,7 +283,7 @@ letras = ['A', 'B', 'C', 'D', 'E']
 'F' in letras # False
 ```
 
-#### Intervalo de listas (Slice)
+### Intervalo de listas (Slice)
 ```py
 listas[start:stop:step]
 """
@@ -314,21 +313,21 @@ listas[1::2] # 'B', 'D'
 listas[::-1] # 'E', 'D', 'C', 'B', 'A'
 ```
 
-#### Tamanho de listas len()
+### Tamanho de listas len()
 ```py
 listas = ['A', 'B', 'C', 'D', 'E']
 
 len(listas) # 5
 ```
 
-#### Soma de listas
+### Soma de listas
 ```py
 listas = [1, 2, 3, 4, 5]
 
 soma = sum(listas) # soma = 15
 ```
 
-#### Map
+### Map
 ```py
 map(função, lista)
 # Aplica uma função em todos os elementos da lista
@@ -342,7 +341,7 @@ entradaInt = list(map(int, entrada)) # [1, 2, 3, 4, 5]
 # list() aplica list no map
 ```
 
-### Tuplas (tuple)
+## Tuplas (tuple)
 ```py
 # OBS: Tuplas são listas imutáveis, ou seja, uma vez criadas não permitem modificações.
 tupla = (a, "b")
@@ -352,7 +351,7 @@ tupla[1] # "b"
 print(tupla) # (a, "b")
 ```
 
-### Dicionários (dict)
+## Dicionários (dict)
 ```py
 dicionario = {
     key: value,
@@ -367,11 +366,11 @@ dicionario["c"] # d
 print(dicionario) # {key: value, a: "b", "c": d}
 ```
 
-## Métodos
+# Métodos
 
-### Class String
+## Class String
 
-#### Operações com strings
+### Operações com strings
 ```py
 "Texto1" + "Texto2" # "Texto1Texto2"
 "A" * 3 # "AAA"
@@ -380,7 +379,7 @@ print(dicionario) # {key: value, a: "b", "c": d}
 "a" < "b" # True
 # Ordem do alfabeto: ABC...XYZabc...xyz
 ```
-#### Verificação de ocorrência
+### Verificação de ocorrência
 ```py
 string = "Olá mundo"
 "Ol" in string # True
@@ -390,7 +389,7 @@ string = "Olá mundo"
 .startswith("mundo") # False
 ```
 
-#### Acessar elementos
+### Acessar elementos
 ```py
 string[x] # Acessa o índice x da string
 string[start:stop:step] # String c/ slice
@@ -403,7 +402,7 @@ string[start:stop:step] # String c/ slice
 .find() # Retorna o index que começa o argumento, retorna -1 caso não encontre
 ```
 
-#### Formatação
+### Formatação
 ```py
 .capitalize() # Inicial maiúscula
 .upper() # Todas maiúsculas
@@ -416,9 +415,9 @@ string[start:stop:step] # String c/ slice
 # Por padrão, separador = " " -> Espaço
 ```
 
-### Class List
+## Class List
 
-#### Adicionar elementos
+### Adicionar elementos
 ```py
 .insert(index, elemento) # Adiciona o elemento na posição do Index
 
@@ -427,7 +426,7 @@ string[start:stop:step] # String c/ slice
 .extend(lista) # Adiciona elementos da lista "lista" no fim da lista "listas"
 ```
 
-#### Remover elementos
+### Remover elementos
 ```py
 .remove(elemento) # Remove a 1a ocorrência do elemento
 # OBS: Se o elemento não estiver na lista, haverá um erro
@@ -435,17 +434,17 @@ string[start:stop:step] # String c/ slice
 .pop(indice) # Retorna elemento do índice e o remove da lista
 ```
 
-#### Verificiar ocorrência
+### Verificiar ocorrência
 ```py
 .index(elemento) # Retorna o índice do elemento
 ```
 
-#### Contagem de ocorrência
+### Contagem de ocorrência
 ```py
 .count(elemento) # Retorna o n° de ocorrências do elemento
 ```
 
-#### Ordenação de listas
+### Ordenação de listas
 ```py
 .sort() # Ordenada em ordem Crescente
 
@@ -454,20 +453,20 @@ string[start:stop:step] # String c/ slice
 listas.reverse() # Inverte ordem da lista
 ```
 
-#### Cópia de listas
+### Cópia de listas
 ```py
 listas2 = listas.copy()  # Cópia independente da lista
 listas2 = sorted(Listas) # Cópia ordenada da lista, sem alterar original
 ```
 
-#### Join
+### Join
 ```py
 # Transforma uma lista de strings em uma string
 string = sep.join(listas)
 # sep = separador entre os elementos da lista
 ```
 
-## Inclusão de bibliotecas
+# Inclusão de bibliotecas
 
 ```py
 import nomeDaBiblioteca
@@ -485,4 +484,4 @@ from math import pi
 x = pi
 ```
 
-## Funções importantes
+# Funções importantes
