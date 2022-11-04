@@ -33,6 +33,7 @@
     - [Dicionários (dict)](#dicionários-dict)
   - [Métodos](#métodos)
     - [Class String](#class-string)
+    - [Class List](#class-list)
   - [Inclusão de bibliotecas](#inclusão-de-bibliotecas)
   - [Funções importantes](#funções-importantes)
 
@@ -261,8 +262,6 @@ listas = ['A', 'B', 'C', 'D', 'E']
 
 listas[2] = 'x' # listas = ['A', 'B', 'x', 'D', 'E']
 ```
-
-Alterar elementos com intervalos (Slice)
 
 ```py
 listas = [0, 1, 2, 3, 4, 5]
@@ -496,6 +495,8 @@ string = "Olá mundo"
 "Ol" in string # True
 "Do" in string # False
 ```
+
+### Class List
 
 ## Inclusão de bibliotecas
 
