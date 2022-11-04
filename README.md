@@ -17,18 +17,11 @@
       - [Print de listas](#print-de-listas)
       - [Acessar elementos](#acessar-elementos)
       - [Alterar elementos](#alterar-elementos)
-      - [Adicionar elementos](#adicionar-elementos)
-      - [Remover elementos](#remover-elementos)
       - [Verificação de elementos](#verificação-de-elementos)
-      - [Contagem de elementos](#contagem-de-elementos)
       - [Intervalo de listas (Slice)](#intervalo-de-listas-slice)
       - [Tamanho de listas len()](#tamanho-de-listas-len)
       - [Soma de listas](#soma-de-listas)
-      - [Ordenação de listas](#ordenação-de-listas)
-      - [Reversão de listas](#reversão-de-listas)
-      - [Cópia de listas](#cópia-de-listas)
       - [Map](#map)
-      - [Join (Inverso do .split())](#join-inverso-do-split)
     - [Tuplas (tuple)](#tuplas-tuple)
     - [Dicionários (dict)](#dicionários-dict)
   - [Métodos](#métodos)
@@ -38,6 +31,13 @@
       - [Acessar elementos](#acessar-elementos-1)
       - [Formatação](#formatação)
     - [Class List](#class-list)
+      - [Adicionar elementos](#adicionar-elementos)
+      - [Remover elementos](#remover-elementos)
+      - [Verificiar ocorrência](#verificiar-ocorrência)
+      - [Contagem de ocorrência](#contagem-de-ocorrência)
+      - [Ordenação de listas](#ordenação-de-listas)
+      - [Cópia de listas](#cópia-de-listas)
+      - [Join](#join)
   - [Inclusão de bibliotecas](#inclusão-de-bibliotecas)
   - [Funções importantes](#funções-importantes)
 
@@ -275,41 +275,6 @@ listas[1:4] = ['A', 'B',] # listas = [0, 'A', 'B', 4, 5]
 listas[2:4] = [] # listas = [0, 1, 4, 5]
 ```
 
-#### Adicionar elementos
-```py
-listas.insert(pos, elemento) # Insere um elemento na pos (não remove nenhum elemento)
-listas.append(elemento) # Adiciona o elemento no final da lista
-```
-```py
-listas = [0, 1, 2, 3]
-
-listas.insert(0, 'x') # listas = ['x', 0, 1, 2, 3]
-listas.append('x') # listas = [0, 1, 2, 3, 'x']
-```
-```py
-listas = [0, 1, 2, 3]
-adicionar = [4, 5, 6]
-
-listas.append(adicionar) # listas = [0, 1, 2, 3, [4, 5, 6]]
-listas.extend(adicionar) # listas = [0, 1, 2, 3, 4, 5, 6]
-```
-
-#### Remover elementos
-```py
-# Remover da lista por elemento
-letras = [0, 1, 2, 1]
-
-letras.remove(1) # letras = [0, 2, 1]
-# Remove a primeira ocorrência de 1
-# Obs: Se o elemento não estiver na lista, teremos um erro
-```
-```py
-# Remover da lista por posição
-letras = ['A', 'B', 'C', 'D', 'E']
-
-letras.pop(1) # Retorna 'B' -> letras = ['A', 'C', 'D', 'E']
-```
-
 #### Verificação de elementos
 ```py
 # Verificar existência
@@ -317,22 +282,6 @@ letras = ['A', 'B', 'C', 'D', 'E']
 
 'A' in letras # True
 'F' in letras # False
-```
-```py
-# Verificar Index
-letras = ['A', 'B', 'C', 'D', 'E', 'A']
-
-letras.index('A') # 0 -> Primeira ocorrência
-letras.index('E') # 4
-```
-
-#### Contagem de elementos
-```py
-listas = ['A', 'B', 'B', 'C', 'B', 'C']
-
-listas.count('A') # 1
-listas.count('B') # 3
-listas.count('C') # 2
 ```
 
 #### Intervalo de listas (Slice)
@@ -379,36 +328,6 @@ listas = [1, 2, 3, 4, 5]
 soma = sum(listas) # soma = 15
 ```
 
-#### Ordenação de listas
-```py
-listas.sort() # Aceita 2 argumentos
-
-listas.sort()               # Ordem crescente
-listas.sort(reverse = True) # Ordem decrescente
-```
-Cópia ordenada sem alterar a lista
-```py
-listas = [5, 4, 3, 2, 1]
-
-print(listas)           # [5, 4, 3, 2 ,1]
-print(sorted(listas))   # [1, 2, 3, 4, 5]
-print(listas)           # [5, 4, 3, 2 ,1]
-```
-
-#### Reversão de listas
-```py
-listas = ['A', 'B', 'C', 'D', 'E']
-
-listas.reverse() # listas = ['E', 'D', 'C', 'B', 'A']
-```
-
-#### Cópia de listas
-```py
-a = [1, 2, 3]
-
-b = a.copy() # b = [1, 2, 3] -> Independente
-```
-
 #### Map
 ```py
 map(função, lista)
@@ -421,14 +340,6 @@ entrada = ["1", "2", "3", "4", "5"]
 entradaInt = list(map(int, entrada)) # [1, 2, 3, 4, 5]
 # map aplica int em cada elemento da entrada
 # list() aplica list no map
-```
-
-#### Join (Inverso do .split())
-Transforma uma lista de strings em uma string separadas
-```py
-listas = ["A", "B", "C"]
-listasJoin = " ".join(listas) # listasJoin = "A B C"
-listasJoin2 = ", ".join(listas) # listasJoin2 = "A, B, C"
 ```
 
 ### Tuplas (tuple)
@@ -506,6 +417,55 @@ string[start:stop:step] # String c/ slice
 ```
 
 ### Class List
+
+#### Adicionar elementos
+```py
+.insert(index, elemento) # Adiciona o elemento na posição do Index
+
+.append(elemento) # Adiciona o elemento no fim da lista
+
+.extend(lista) # Adiciona elementos da lista "lista" no fim da lista "listas"
+```
+
+#### Remover elementos
+```py
+.remove(elemento) # Remove a 1a ocorrência do elemento
+# OBS: Se o elemento não estiver na lista, haverá um erro
+
+.pop(indice) # Retorna elemento do índice e o remove da lista
+```
+
+#### Verificiar ocorrência
+```py
+.index(elemento) # Retorna o índice do elemento
+```
+
+#### Contagem de ocorrência
+```py
+.count(elemento) # Retorna o n° de ocorrências do elemento
+```
+
+#### Ordenação de listas
+```py
+.sort() # Ordenada em ordem Crescente
+
+.sort(reverse = True) # Ordena em ordem Decrescente
+
+listas.reverse() # Inverte ordem da lista
+```
+
+#### Cópia de listas
+```py
+listas2 = listas.copy()  # Cópia independente da lista
+listas2 = sorted(Listas) # Cópia ordenada da lista, sem alterar original
+```
+
+#### Join
+```py
+# Transforma uma lista de strings em uma string
+string = sep.join(listas)
+# sep = separador entre os elementos da lista
+```
 
 ## Inclusão de bibliotecas
 
