@@ -1,6 +1,8 @@
 - [Estudos em Python](#estudos-em-python)
   - [Udemy](#udemy)
 - [Syntax](#syntax)
+  - [Comentários](#comentários)
+  - [Comandos de repetição](#comandos-de-repetição)
   - [Tipos de dados](#tipos-de-dados)
   - [Operadores](#operadores)
   - [Atribuição de variável](#atribuição-de-variável)
@@ -42,6 +44,7 @@
 
 # Syntax
 
+## Comentários
 ```py
 # Comentários na linha utilizam "#"
 
@@ -69,7 +72,10 @@ print("var =", round(var, x))   # Printa a variável "var" com "x" casas decimai
 var = input() # Aguarda receber entrada
 var = input("Texto") # Printa o texto e espera por entrada
 var = int(input()) # Casting de inteiro no input (String por padrão) 
+```
 
+## Comandos de repetição
+```py
 if condição:
     # comando (PRECISA DE IDENTAÇÃO)
 elif: # Equivalente ao else if
@@ -107,7 +113,7 @@ range(inicio, fim)  # Por padrão, passo += 1
 range(fim)          # Por padrão, inicio = 0
 ```
 
-Exemplos de for com range()
+Exemplos de range() com for
 
 ```py
 for i in range(n): # De 0 até n - 1
