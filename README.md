@@ -33,6 +33,10 @@
     - [Dicionários (dict)](#dicionários-dict)
   - [Métodos](#métodos)
     - [Class String](#class-string)
+      - [Formatação](#formatação)
+      - [Acessar elementos](#acessar-elementos-1)
+      - [Operações com strings](#operações-com-strings)
+      - [Verificação de ocorrência](#verificação-de-ocorrência)
     - [Class List](#class-list)
   - [Inclusão de bibliotecas](#inclusão-de-bibliotecas)
   - [Funções importantes](#funções-importantes)
@@ -456,12 +460,12 @@ print(dicionario) # {key: value, a: "b", "c": d}
 
 ### Class String
 
+#### Formatação
 ```py
 .capitalize() # Inicial maiúscula
 .upper() # Todas maiúsculas
 .lower() # Todas minúsculas
 ```
-
 ```py
 .strip() # Retira espaços, \n etc das extremidades
 .replace("x", "y") # Troca os "x" por "y"
@@ -469,6 +473,7 @@ print(dicionario) # {key: value, a: "b", "c": d}
 # Por padrão, separador = " " -> Espaço
 ```
 
+#### Acessar elementos
 ```py
 string[x] # Acessa o índice x da string
 string[start:stop:step] # String c/ slice
@@ -482,7 +487,7 @@ string[start:stop:step] # String c/ slice
 .startswith("Olá") # True
 .startswith("mundo") # False
 ```
-
+#### Operações com strings
 ```py
 "Texto1" + "Texto2" # "Texto1Texto2"
 "A" * 3 # "AAA"
@@ -490,10 +495,12 @@ string[start:stop:step] # String c/ slice
 
 "a" < "b" # True
 # Ordem do alfabeto: ABC...XYZabc...xyz
-
+```
+#### Verificação de ocorrência
+```py
 string = "Olá mundo"
 "Ol" in string # True
-"Do" in string # False
+"Do" in string # False (Case sensitive)
 ```
 
 ### Class List
