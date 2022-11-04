@@ -2,6 +2,8 @@
 - ### [Udemy](https://www.udemy.com/course/curso-algoritmos-logica-de-programacao/)
 
 # Lembretes
+1. [Syntax](#Syntax)
+
 ## Syntax
 
 ```py
