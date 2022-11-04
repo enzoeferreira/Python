@@ -2,19 +2,39 @@
 - ### [Udemy](https://www.udemy.com/course/curso-algoritmos-logica-de-programacao/)
 
 # Lembretes
-1. [Syntax](#Syntax)
-   1. [Tipos de dados](#tipos-de-dados)
-   2. [Operadores](#operadores)
-   3. [Atribuição de variável](#atribuição-de-variável)
-2. [Funções](#funções)
-3. [Listas, Tuplas e Dicionários](#listas-tuplas-e-dicionários)
-   1. [Listas](#listas-list)
-   2. [Tuplas](#tuplas-tuple)
-   3. [Dicionários](#dicionários-dict)
-4. [Métodos](#métodos)
-   1. [String](#class-string)
-5. [Inclusão de Bibliotecas](#inclusão-de-bibliotecas)
-6. [Funções Importantes](#funções-importantes)
+- [Estudos em Python](#estudos-em-python)
+- [Lembretes](#lembretes)
+  - [Syntax](#syntax)
+    - [Tipos de dados](#tipos-de-dados)
+    - [Operadores](#operadores)
+    - [Atribuição de variável](#atribuição-de-variável)
+  - [Funções](#funções)
+    - [Criação de funções](#criação-de-funções)
+  - [Listas, Tuplas e Dicionários](#listas-tuplas-e-dicionários)
+    - [Listas (list)](#listas-list)
+      - [Criação de listas](#criação-de-listas)
+      - [Operações com listas](#operações-com-listas)
+      - [Print de listas](#print-de-listas)
+      - [Acessar elementos](#acessar-elementos)
+      - [Alterar elementos](#alterar-elementos)
+      - [Adicionar elementos](#adicionar-elementos)
+      - [Remover elementos](#remover-elementos)
+      - [Verificação de elementos](#verificação-de-elementos)
+      - [Contagem de elementos](#contagem-de-elementos)
+      - [Intervalo de listas (Slice)](#intervalo-de-listas-slice)
+      - [Tamanho de listas len()](#tamanho-de-listas-len)
+      - [Soma de listas](#soma-de-listas)
+      - [Ordenação de listas](#ordenação-de-listas)
+      - [Reversão de listas](#reversão-de-listas)
+      - [Cópia de listas](#cópia-de-listas)
+      - [Map](#map)
+      - [Join (Inverso do .split())](#join-inverso-do-split)
+    - [Tuplas (tuple)](#tuplas-tuple)
+    - [Dicionários (dict)](#dicionários-dict)
+  - [Métodos](#métodos)
+    - [Class String](#class-string)
+  - [Inclusão de bibliotecas](#inclusão-de-bibliotecas)
+  - [Funções importantes](#funções-importantes)
 
 ## Syntax
 
@@ -187,42 +207,8 @@ em algumas IDEs, é tipo um comentário
 ## Listas, Tuplas e Dicionários
 
 ### Listas (list)
-```py
-lista = [a, "b"]
 
-lista[0] # a
-lista[1] # "b"
-print(lista) # [a, "b"]
-```
-
-### Tuplas (tuple)
-```py
-# OBS: Tuplas são listas imutáveis, ou seja, uma vez criadas não permitem modificações.
-tupla = (a, "b")
-
-tupla[0] # a
-tupla[1] # "b"
-print(tupla) # (a, "b")
-```
-
-### Dicionários (dict)
-```py
-dicionario = {
-    key: value,
-    a: "b",
-    "c": d
-}
-# OBS: A key tem que ser algo imutável
-
-dicionario[key] # value
-dicionario[a]   # "b"
-dicionario["c"] # d
-print(dicionario) # {key: value, a: "b", "c": d}
-```
-## Listas
-
-### Criação de listas
-
+#### Criação de listas
 ```py
 listas = [x, y, z]
 listas = ["a", "b", "c"]
@@ -242,8 +228,8 @@ n = int(input())
 
 listas = [int(input()) for i in range(n)]
 ```
-### Operações com listas
 
+#### Operações com listas
 ```py
 # Multiplicação por Inteiro
 lista = [1] * 3 # lista = [1, 1, 1]
@@ -256,8 +242,7 @@ lista2 = lista + [4, 5] # lista2 = [1, 2, 3, 4, 5]
 lista += [4, 5] # lista = [1, 2, 3, 4, 5]
 ```
 
-### Print de listas
-
+#### Print de listas
 ```py
 listas = ['A', 'B', 'C', 'D', 'E']
 
@@ -265,8 +250,7 @@ print(listas)  # ['A', 'B', 'C', 'D', 'E']
 print(*listas) # A B C D E
 ```
 
-### Acessar elementos
-
+#### Acessar elementos
 ```py
 listas = ['A', 'B', 'C', 'D', 'E']
 
@@ -274,8 +258,7 @@ listas[0]  # 'A'
 listas[-1] # 'E'
 ```
 
-### Alterar elementos
-
+#### Alterar elementos
 ```py
 listas = ['A', 'B', 'C', 'D', 'E']
 
@@ -292,8 +275,7 @@ listas[1:4] = ['A', 'B',] # listas = [0, 'A', 'B', 4, 5]
 listas[2:4] = [] # listas = [0, 1, 4, 5]
 ```
 
-### Adicionar elementos
-
+#### Adicionar elementos
 ```py
 listas.insert(pos, elemento) # Insere um elemento na pos (não remove nenhum elemento)
 listas.append(elemento) # Adiciona o elemento no final da lista
@@ -312,8 +294,7 @@ listas.append(adicionar) # listas = [0, 1, 2, 3, [4, 5, 6]]
 listas.extend(adicionar) # listas = [0, 1, 2, 3, 4, 5, 6]
 ```
 
-### Remover elementos
-
+#### Remover elementos
 ```py
 # Remover da lista por elemento
 letras = [0, 1, 2, 1]
@@ -329,8 +310,7 @@ letras = ['A', 'B', 'C', 'D', 'E']
 letras.pop(1) # Retorna 'B' -> letras = ['A', 'C', 'D', 'E']
 ```
 
-### Verificação de elementos
-
+#### Verificação de elementos
 ```py
 # Verificar existência
 letras = ['A', 'B', 'C', 'D', 'E']
@@ -346,8 +326,7 @@ letras.index('A') # 0 -> Primeira ocorrência
 letras.index('E') # 4
 ```
 
-### Contagem de elementos
-
+#### Contagem de elementos
 ```py
 listas = ['A', 'B', 'B', 'C', 'B', 'C']
 
@@ -356,8 +335,7 @@ listas.count('B') # 3
 listas.count('C') # 2
 ```
 
-### Intervalo de listas (Slice)
-
+#### Intervalo de listas (Slice)
 ```py
 listas[start:stop:step]
 """
@@ -387,24 +365,21 @@ listas[1::2] # 'B', 'D'
 listas[::-1] # 'E', 'D', 'C', 'B', 'A'
 ```
 
-### Tamanho de listas len()
-
+#### Tamanho de listas len()
 ```py
 listas = ['A', 'B', 'C', 'D', 'E']
 
 len(listas) # 5
 ```
 
-### Soma de listas
-
+#### Soma de listas
 ```py
 listas = [1, 2, 3, 4, 5]
 
 soma = sum(listas) # soma = 15
 ```
 
-### Ordenação de listas
-
+#### Ordenação de listas
 ```py
 listas.sort() # Aceita 2 argumentos
 
@@ -420,24 +395,21 @@ print(sorted(listas))   # [1, 2, 3, 4, 5]
 print(listas)           # [5, 4, 3, 2 ,1]
 ```
 
-### Reversão de listas
-
+#### Reversão de listas
 ```py
 listas = ['A', 'B', 'C', 'D', 'E']
 
 listas.reverse() # listas = ['E', 'D', 'C', 'B', 'A']
 ```
 
-### Cópia de listas
-
+#### Cópia de listas
 ```py
 a = [1, 2, 3]
 
 b = a.copy() # b = [1, 2, 3] -> Independente
 ```
 
-### Map
-
+#### Map
 ```py
 map(função, lista)
 # Aplica uma função em todos os elementos da lista
@@ -451,13 +423,37 @@ entradaInt = list(map(int, entrada)) # [1, 2, 3, 4, 5]
 # list() aplica list no map
 ```
 
-### Join (Inverso do .split())
-
+#### Join (Inverso do .split())
 Transforma uma lista de strings em uma string separadas
 ```py
 listas = ["A", "B", "C"]
 listasJoin = " ".join(listas) # listasJoin = "A B C"
 listasJoin2 = ", ".join(listas) # listasJoin2 = "A, B, C"
+```
+
+### Tuplas (tuple)
+```py
+# OBS: Tuplas são listas imutáveis, ou seja, uma vez criadas não permitem modificações.
+tupla = (a, "b")
+
+tupla[0] # a
+tupla[1] # "b"
+print(tupla) # (a, "b")
+```
+
+### Dicionários (dict)
+```py
+dicionario = {
+    key: value,
+    a: "b",
+    "c": d
+}
+# OBS: A key tem que ser algo imutável
+
+dicionario[key] # value
+dicionario[a]   # "b"
+dicionario["c"] # d
+print(dicionario) # {key: value, a: "b", "c": d}
 ```
 
 ## Métodos
