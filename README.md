@@ -11,8 +11,10 @@
   - [print()](#print)
   - [input()](#input)
   - [range()](#range)
+  - [len()](#len)
   - [round()](#round)
   - [min()/max()](#minmax)
+  - [sum()](#sum)
   - [type()](#type)
   - [exit()](#exit)
 - [Listas, Tuplas e Dicionários](#listas-tuplas-e-dicionários)
@@ -235,6 +237,12 @@ for i in range(1, n, 2) # de 1 até n - 1 ou menor
     # i += 2
 ```
 
+## len()
+```py
+len(sequencia)
+# Retorna a quantidade de elementos de uma sequência
+```
+
 ## round()
 ```py
 round(var, casas) # Arredonda a variável "var" para um certo número de casas decimais
@@ -245,6 +253,12 @@ round(var) # Transforma a variável "var" float em inteiro
 ```py
 min(x1, x2, x3) # Retorna o MENOR valor entre x1, x2 e x3
 max(x1, x2, x3) # Retorna o MAIOR valor entre x1, x2 e x3
+```
+
+## sum()
+```py
+sum(sequencia)
+# Retorna a soma de todos os elementos da sequência
 ```
 
 ## type()
