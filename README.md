@@ -251,8 +251,8 @@ round(var) # Transforma a variável "var" float em inteiro
 
 ## min()/max()
 ```py
-min(x1, x2, x3) # Retorna o MENOR valor entre x1, x2 e x3
-max(x1, x2, x3) # Retorna o MAIOR valor entre x1, x2 e x3
+min(x1, x2, ..., xn) # Retorna o MENOR valor entre x1, x2, ..., xn
+max(x1, x2, ..., xn) # Retorna o MAIOR valor entre x1, x2, ..., xn
 ```
 
 ## sum()
