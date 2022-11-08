@@ -474,7 +474,7 @@ string[start:stop:step] # String c/ slice
 ```
 ```py
 .strip() # Retira espaços, \n etc das extremidades
-.replace("x", "y") # Troca os "x" por "y"
+.replace("x", "y") # Retorna a string com os "x" trocados por "y"
 .split(separador) # Transforma uma string em uma lista de strings, separando pelo separador
 # Por padrão, separador = " " -> Espaço
 ```
