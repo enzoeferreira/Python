@@ -480,6 +480,7 @@ string[start:stop:step] # String c/ slice
 ```
 ```py
 "{0} {1}".format(var0, var1) # Coloca as variáveis do argumento em ordem nos placeholders {n}
+"{const}".format(const = x) # Outra forma de usar
 # OBS: Usada semelhantemente no print formadato de uma forma mais direta como: print(f"")
 ```
 
