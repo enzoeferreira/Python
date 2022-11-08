@@ -408,7 +408,12 @@ entradaInt = list(map(int, entrada)) # [1, 2, 3, 4, 5]
 ## Tuplas (tuple)
 ```py
 # OBS: Tuplas são listas imutáveis, ou seja, uma vez criadas não permitem modificações.
-tupla = (a, "b")
+tupla = (x, "y", 11, 10.5)
+tupla = x, "y", 11, 10.5
+
+a, b, c, d = tupla # a = x, b = "y", c = 11, d = 10.5
+a, *b, c   = tupla # a = x, b = ["y", 11]  , c = 10.5
+# OBS: Quando usamos o prefixo *, a variável recebe tudo sobrar das outras
 
 tupla[0] # a
 tupla[1] # "b"
