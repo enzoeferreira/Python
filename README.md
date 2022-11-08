@@ -31,6 +31,7 @@
     - [Map](#map)
   - [Tuplas (tuple)](#tuplas-tuple)
   - [Sets](#sets)
+    - [Operações matemáticas](#operações-matemáticas)
   - [Dicionários (dict)](#dicionários-dict)
 - [Métodos](#métodos)
   - [Class String](#class-string)
@@ -428,6 +429,15 @@ print(tupla) # (a, "b")
 # Listas desordenadas e não indexadas, mas são mais rápidos de usar o "in"
 sets = {x, "y", 11, 10.5}
 ```
+
+### Operações matemáticas
+Operações matemáticas podem ser feitas entre sets, gerando outro set. Elas são:
+
+    | -> União
+    & -> Intersecção
+    - -> Diferença (Itens da esquerda - itens da direita)
+    ^ -> Diferença Simétrica (Itens que só estão em um ou outro, não ambos)
+
 ## Dicionários (dict)
 ```py
 dicionario = {
