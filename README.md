@@ -425,7 +425,7 @@ print(tupla) # (a, "b")
 
 ## Sets
 ```py
-# Listas que não indexada, mas são mais rápidos de usar o "in"
+# Listas desordenadas e não indexadas, mas são mais rápidos de usar o "in"
 sets = {x, "y", 11, 10.5}
 ```
 ## Dicionários (dict)
