@@ -46,6 +46,8 @@
     - [Ordenação de listas](#ordenação-de-listas)
     - [Cópia de listas](#cópia-de-listas)
     - [Join](#join)
+  - [Class Set](#class-set)
+    - [Adicionar/Remover elementos](#adicionarremover-elementos)
 - [Inclusão de bibliotecas](#inclusão-de-bibliotecas)
 - [Funções importantes](#funções-importantes)
 
@@ -544,6 +546,14 @@ listas2 = sorted(Listas) # Cópia ordenada da lista, sem alterar original
 # Transforma uma lista de strings em uma string
 string = sep.join(listas)
 # sep = separador entre os elementos da lista
+```
+
+## Class Set
+
+### Adicionar/Remover elementos
+```py
+.add(elemento) # Adiciona um elemento
+.remove(elemento) # Remove um elemento
 ```
 
 # Inclusão de bibliotecas
