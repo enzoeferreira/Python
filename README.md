@@ -17,7 +17,7 @@
   - [sum()](#sum)
   - [type()](#type)
   - [exit()](#exit)
-- [Listas, Tuplas e Dicionários](#listas-tuplas-e-dicionários)
+- [Listas, Tuplas, Sets e Dicionários](#listas-tuplas-sets-e-dicionários)
   - [Listas (list)](#listas-list)
     - [Criação de listas](#criação-de-listas)
     - [Operações com listas](#operações-com-listas)
@@ -30,6 +30,7 @@
     - [Soma de listas](#soma-de-listas)
     - [Map](#map)
   - [Tuplas (tuple)](#tuplas-tuple)
+  - [Sets](#sets)
   - [Dicionários (dict)](#dicionários-dict)
 - [Métodos](#métodos)
   - [Class String](#class-string)
@@ -272,7 +273,7 @@ exit(0) # Fecha o programa de forma "amigável" (Por conta do 0)
 # Obs: Não utilizar fora do interpretador
 ```
 
-# Listas, Tuplas e Dicionários
+# Listas, Tuplas, Sets e Dicionários
 
 ## Listas (list)
 
@@ -420,6 +421,11 @@ tupla[1] # "b"
 print(tupla) # (a, "b")
 ```
 
+## Sets
+```py
+# Listas que não indexada, mas são mais rápidos de usar o "in"
+sets = {x, "y", 11, 10.5}
+```
 ## Dicionários (dict)
 ```py
 dicionario = {
