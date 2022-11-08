@@ -478,6 +478,10 @@ string[start:stop:step] # String c/ slice
 .split(separador) # Transforma uma string em uma lista de strings, separando pelo separador
 # Por padrão, separador = " " -> Espaço
 ```
+```py
+"{0} {1}".format(var0, var1) # Coloca as variáveis do argumento em ordem nos placeholders {n}
+# OBS: Usada semelhantemente no print formadato de uma forma mais direta como: print(f"")
+```
 
 ## Class List
 
