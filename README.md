@@ -538,8 +538,9 @@ string = sep.join(listas)
 # Inclusão de bibliotecas
 
 ```py
-import nomeDaBiblioteca
-from nomeDaBiblioteca import funcaoEspecifica
+import Nome_da_biblioteca # Importa uma biblioteca
+import Nome_da_biblioteca as prefix # Importa uma biblioteca com um prefixo diferente
+from Nome_da_biblioteca import something # Importa algo específico de uma biblioteca
 ```
 Exemplos de uso
 ```py
@@ -552,5 +553,9 @@ from math import pi
 
 x = pi
 ```
+```py
+import math as m
 
+x = m.pi
+```
 # Funções importantes
