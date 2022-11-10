@@ -1,5 +1,6 @@
 - [Estudos em Python](#estudos-em-python)
   - [Udemy](#udemy)
+  - [Google Style Guide](#google-style-guide)
 - [Syntax](#syntax)
   - [Comentários](#comentários)
   - [Comandos de repetição](#comandos-de-repetição)
