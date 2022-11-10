@@ -54,6 +54,7 @@
 
 # Estudos em Python
 ## [Udemy](https://www.udemy.com/course/curso-algoritmos-logica-de-programacao/)
+## [Google Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md)
 
 # Syntax
 
