@@ -155,11 +155,14 @@ x, y = 10, 20 # Atribui 10 a "x" e 20 a "y"
 
 ## Criação de funções
 ```py
-def nome(inputs): # Define a função "nome" que requer "input"
+def nome(args): # Define a função "nome" que requer "input"
     return var # Retorna a variável "var"
 
-def nome(input:type): # Definição de função com type hint de input
-def nome(input:typeIn)->typeOut: # Define a função com type hint de input e output
+def nome(arg:type): # Definição de função com type hint do argumento
+def nome(arg:typeIn)->typeOut: # Define a função com type hint de input e output
+
+def nome(arg = defaultValue): # Define a função com valor padrão p/ argumento
+def nome(arg:type = defaultValue): # Define a função com type hint e valor padrão
 """
 Type Hint não tem muito uso prático, apenas no autocompletar
 em algumas IDEs, é tipo um comentário
